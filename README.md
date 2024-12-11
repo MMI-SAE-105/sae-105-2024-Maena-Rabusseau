@@ -6,8 +6,8 @@
 - NOM : Rabusseau 
 - PRÉNOM : Maéna 
 - GROUPE : C1
-- URL du site :
-- URL FIGMA :
+- URL du site : https://guileless-bonbon-3fda6f.netlify.app 
+- URL FIGMA : https://www.figma.com/design/865BVlanWLUxPAc9i3cVGc/Rabusseau_Ma%C3%A9na_SAE-103---MMi1-2024-2025---rendu?node-id=3-3&t=altputgVDclRQWQs-1 
 
 ## Sujet
 
