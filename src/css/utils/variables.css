@@ -11,12 +11,12 @@
 
 
     /* taille du texte */
-    --txt-XS: 0.813rem;
-    --txt-S: 0.938rem;
-    --txt-M: 1rem;
-    --txt-L: 1.25rem;
-    --txt-XL: 2rem;
-    --txt-XXL: 2.5rem;
+    --txt-XS: 0.813rem; /*small texte : 13px*/
+    --txt-S: 0.938rem; /*body 2 : 15px*/
+    --txt-M: 1rem; /*body 1: 20px*/
+    --txt-L: 1.25rem; /*heading 3 : 16px*/
+    --txt-XL: 2rem; /*heading 2: 32px*/
+    --txt-XXL: 2.5rem; /* heading 1 : 40px*/
 
     /* Typo*/
     --font-quicksand: "Quicksand";

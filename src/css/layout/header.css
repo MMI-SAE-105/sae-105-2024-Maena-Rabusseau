@@ -3,18 +3,24 @@
 .header {
     
     background-color: var(--bordeaux-clair);
-
+    padding: 5px;
+    position: relative;
 }
 
 .header__soustitre {
+    font-size:  2px;
     text-align: center;
     color: var(--blanc);
 
 }
 
 .header__title {
+    margin-bottom: 10px;
+    font-size :  2.5rem;
     text-align: center;
     color: var(--blanc)
+    
+   
 }
 
 .header__menu {
@@ -30,9 +36,10 @@
 
 .header__image-chat{
     
-    width: 51px;
-    height: 84px;
-    flex-shrink: 0;
+    position: absolute;
+  top: 40px;
+  right: 10px;
+  height: 80px;
 
 }
 .header__image {
