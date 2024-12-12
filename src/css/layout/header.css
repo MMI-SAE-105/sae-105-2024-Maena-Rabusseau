@@ -15,16 +15,9 @@ flex-shrink: 0;
 }
 .header__soustitre {
     color: #FFF;
-
-/* heading 2 */
-font-family: Quicksand;
-
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-  /*  font-size: 2px;/*  
+   font-size: 2px;
     text-align: center;
-    color: var(--blanc);*/
+    color: var(--blanc);
 
 }
 
