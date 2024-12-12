@@ -1,0 +1,29 @@
+.Billetterie__title{
+    color: var(--blanc);
+    font-size: 2rem;
+    font-family:var(--font-quicksand);
+}
+
+.Billetterie__prix{
+    color: #000;
+
+/* body 1 */
+font-family: var(--font-opensans);
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.button__ticket{
+    color: var(--blanc);
+    background-color:var(--marron-clair);
+    border-radius: 30px;
+    display: flex;
+    width: 130px;
+    height: 50px;
+    padding: 20px 25px;
+    align-items: center;
+    gap: 10px;
+}
+
