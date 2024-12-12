@@ -25,3 +25,34 @@
     align-items: center;
     gap: 10px;
 }
+
+
+/*vrai page début : */
+
+
+.invités__title{
+    color: var(--blanc);
+    font-size: 2rem;
+    font-family:var(--font-quicksand);
+justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.invités__image{
+    width: 263px;
+    height: 263px;
+    display: flex;
+    margin: 0 60px;
+}
+.invités__nom{
+    font-family:var(--font-opensans);
+    font-size: 1rem;
+    justify-content: center;
+   
+}
+.p{
+    justify-content: center;
+    font-family:var(--font-opensans);
+    font-size: 1rem;
+    
+}

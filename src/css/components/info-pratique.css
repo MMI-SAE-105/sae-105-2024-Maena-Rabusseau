@@ -81,3 +81,43 @@
   .Nos-partenaires__logo6{width: 99px;
     height: 99px;
     flex-shrink: 0;}
+
+
+    /*vrai page début : */
+
+.infos-pratiques__image{
+    width: 334px;
+    height: 184px;
+    display: flex;
+    margin: 0 27px;
+}
+
+.infos-pratiques__image1{
+    width: 334px;
+    height: 184px;
+    display: flex;
+    margin: 0 27px;
+}
+.image__parc{
+    
+        width: 350px;
+        height: 346px;
+        display: flex;
+        margin: 0 27px;
+    
+}
+
+.image-info__chat{
+    width: 328px;
+    height: 324px;
+    display: flex;
+    margin: 0 27px;
+
+}
+.infos-pratiques__info{
+font-family: var(--fontopensans);
+font-size: 1rem;
+justify-content: center;
+}
+
+
