@@ -16,6 +16,7 @@ line-height: normal;
 }
 
 .button__ticket{
+    font-size: 0.938rem;
     color: var(--blanc);
     background-color:var(--marron-clair);
     border-radius: 30px;

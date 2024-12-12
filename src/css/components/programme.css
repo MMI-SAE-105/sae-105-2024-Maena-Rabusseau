@@ -19,6 +19,7 @@
 }
 
 .button__programme {
+    font-size: 0.938rem;
     color: var(--blanc);
     background-color:var(--marron-clair);
     border-radius: 30px;
@@ -71,3 +72,139 @@
     align-items: center;
     gap: 10px;
 }
+
+
+
+/* vrai page */
+
+.programme__title{
+    font-size:2rem ;
+    color: var(--blanc);
+    font-family:var(--font-quicksand);
+    justify-content: center;
+}
+
+.programme__description{
+    font-size: 1rem;
+    font-family: var(--font-opensans);
+    justify-content: center;
+}
+
+.programme__jour-title,
+.programme__jeudi-title,
+.programme__jeudi-session-titre,
+.programme__vendredi-title,
+.programme__vendredi-title,
+.programme__vendredi-session-titre,
+.programme__jour-title,
+.programme__samedi-title,
+.programme__samedi-session-titre{
+font-size: 1rem;
+font-family: var(--font-opensans);
+color: var(--blanc);
+
+}
+
+.programme__strong-label,
+.programme__jeudi-label,
+.programme__vendredi-label,
+.programme__samedi-label{
+    font-size: 1rem;
+    font-family: var(--font-opensans);
+
+    
+}
+.programme__session,
+.programme__audience,
+.programme__location,
+.programme__jeudi-session,
+.programme__jeudi-genre,
+.programme__jeudi-audience,
+.programme__jeudi-location,
+.programme__jeudi-session-descirption,
+.programme__jeudi-session-info,
+.programme__vendred-session,
+.programme__vendredi-audience,
+.programme__vendredi-session,
+.programme__vendredi-genre,
+.programme__vendredi-audience,
+.programme__vendredi-location,
+.programme__vendredi-session-description,
+.programme__vendredi-genre{
+    font-size: 1rem;
+    font-family: var(--font-opensans);
+    justify-content: center;
+}
+
+.programme__jeudi-image{
+    width: 244px;
+height: 362px;
+display: flex;
+margin: 0 75px;
+}
+
+.programme__jeudi-btn{
+    font-size: 0.938rem;
+    color: var(--blanc);
+    background-color:var(--marron-clair);
+    border-radius: 30px;
+    display: flex;
+    width: 160px;
+    height: 70px;
+    padding: 20px 25px;
+    align-items: center;
+    gap: 10px;
+}
+
+.programme__vendredi-image{
+    width: 300px;
+    height: 362px;
+    display: flex;
+    margin: 0 45px;
+}
+
+.button__en-savoir-plus{
+    font-size: 0.938rem;
+    color: var(--blanc);
+    background-color:var(--marron-clair);
+    border-radius: 30px;
+    display: flex;
+    width: 160px;
+    height: 70px;
+    padding: 20px 25px;
+    align-items: center;
+    gap: 10px;
+}
+.programme__image{
+    width: 244px;
+    height: 300px;
+    display: flex;
+    margin: 0 70px;
+}
+
+
+.button-en-savoir-plus{
+    font-size: 0.938rem;
+    color: var(--blanc);
+    background-color:var(--marron-clair);
+    border-radius: 30px;
+    display: flex;
+    width: 160px;
+    height: 70px;
+    padding: 20px 25px;
+    align-items: center;
+    gap: 10px;
+}
+.button__programme-telecharger{
+    font-size: 0.938rem;
+    color: var(--blanc);
+    background-color:var(--marron-clair);
+    border-radius: 30px;
+    display: flex;
+    width: 260px;
+    height: 70px;
+    padding: 20px 25px;
+    align-items: center;
+    gap: 10px;
+}
+

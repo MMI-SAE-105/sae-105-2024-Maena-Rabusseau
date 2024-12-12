@@ -15,11 +15,14 @@
     font-size: 2rem;
     font-family:var(--font-quicksand);
     text-align: left;
-    margin-top: 2.5%;   
+    margin-top: 5%;   
+    
 }
 .footer__link{
 color: var(--blanc);
 font-size: 1rem;
 font-family:var(--font-open-sans);
-margin: auto;
+display: block;
+margin: 20px 0;
+text-decoration: none;
 }
