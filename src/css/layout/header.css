@@ -1,3 +1,24 @@
 .header {
-    background-color: var(--bordeaux-clair-);
+    background-color: var(--bordeaux-clair);
+
+}
+.header__soustitre{
+    color: var(--blanc);
+
+}
+.header__title{
+    color: var(--blanc)
+}
+.header__menu{
+color: var(--blanc);
+
+}
+.header__date{
+
+    color: var(--blanc);
+
+}
+.header__image-chat{
+display: block;
+
 }
