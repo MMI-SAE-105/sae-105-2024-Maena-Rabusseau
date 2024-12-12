@@ -1,0 +1,21 @@
+.programme__description {
+    
+    font-size: 1rem;
+
+    padding: 20px;
+}
+
+.programme__title {
+
+    font-size: 1rem;
+}
+
+.programme__item {
+    font-size: 1rem;
+    width: 333px;
+height: 408px;
+flex-shrink: 0;
+
+}
+
+.button__programme {}

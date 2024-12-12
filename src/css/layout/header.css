@@ -1,26 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
 
 .header {
-    
-    background-color: var(--bordeaux-clair);
-    padding: 5px;
+   
+     background-color: var(--bordeaux-clair);
+    padding: 10px;
     position: relative;
 }
 
+.header__logo-image{
+
+    width: 100px;
+height: 100px;
+flex-shrink: 0;
+}
 .header__soustitre {
-    font-size:  2px;
+    color: #FFF;
+
+/* heading 2 */
+font-family: Quicksand;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  /*  font-size: 2px;
     text-align: center;
-    color: var(--blanc);
+    color: var(--blanc);*/
 
 }
 
 .header__title {
     margin-bottom: 10px;
-    font-size :  2.5rem;
+    font-size: 2.5rem;
     text-align: center;
     color: var(--blanc)
-    
-   
 }
 
 .header__menu {
@@ -34,19 +46,41 @@
     color: var(--blanc);
 }
 
-.header__image-chat{
-    
+.header__image-chat {
+
     position: absolute;
-  top: 40px;
-  right: 10px;
-  height: 80px;
+    top: 40px;
+    right: 10px;
+    height: 80px;
 
 }
+
 .header__image {
-  
+    width: 100%;
+    margin: 0 auto;
 
 }
 
+.header__date {
+    z-index: 2;
+
+    font-size: 1rem;
+    margin-top: 20px;
+    color: var(--blanc);
+    padding: 10px 20px;
+
+
+
+}
+
+.header__image-date {
+    z-index: 1;
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    height: 50px;
+
+}
 
 
 
