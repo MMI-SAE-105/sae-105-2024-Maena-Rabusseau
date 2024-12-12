@@ -1,11 +1,82 @@
 .infos-pratiques__title{
     font-size: 2rem;
+    color: var(--blanc);
+    font-family:var(--font-quicksand);
+
 }
 
-.infos-pratiques__soustitre
+.infos-pratiques__soustitre{
+    
+    font-size: 1rem;
+}
 
-.infos-pratiques__info
+.infos-pratiques__info{
+    font-size: 1rem;
+}
 
-.infos-pratiques__image
+.infos-pratiques__image{
+    width: 334px;
+    height: 184px;
+    flex-shrink: 0;
+}
 
-.button__info1
+.button__info1{
+    color: var(--blanc);
+    background-color:var(--marron-clair);
+    border-radius: 30px;
+    display: flex;
+    width: 130px;
+    height: 50px;
+    padding: 20px 25px;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+
+.Nos-partenaires__title{
+    font-size: 2rem;
+    color: var(--blanc);
+    font-family:var(--font-quicksand);
+
+}
+
+.Nos-partenaires__item{
+    color: #000;
+
+    /* body 1 */
+    font-family:var(--fontopensans);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 279px;
+}
+
+.Nos-partenaires__logo1{
+    width: 200px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.Nos-partenaires__logo2{width: 107px;
+    height: 107px;
+    flex-shrink: 0;}
+
+ .Nos-partenaires__logo3{width: 200px;
+    height: 200px;
+    flex-shrink: 0;}
+
+
+ .Nos-partenaires__logo4{width: 236px;
+    height: 135px;
+    flex-shrink: 0;}
+
+  .Nos-partenaires__logo5{width: 175px;
+    height: 189px;
+    flex-shrink: 0;}
+
+  .Nos-partenaires__logo6{width: 99px;
+    height: 99px;
+    flex-shrink: 0;}

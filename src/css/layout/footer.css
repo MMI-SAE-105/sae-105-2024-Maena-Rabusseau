@@ -9,3 +9,17 @@
     justify-content:center;
 
 }
+
+.footer__title{
+    color: var(--blanc);
+    font-size: 2rem;
+    font-family:var(--font-quicksand);
+    text-align: left;
+    margin-top: 2.5%;   
+}
+.footer__link{
+color: var(--blanc);
+font-size: 1rem;
+font-family:var(--font-open-sans);
+margin: auto;
+}
