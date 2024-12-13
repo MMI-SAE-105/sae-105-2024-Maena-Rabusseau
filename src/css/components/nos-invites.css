@@ -4,6 +4,15 @@
     font-family:var(--font-quicksand);
     background-color:var(--bleu-fonce);
     padding: 20px 0 20px 0;
+    color: var(--blanc);
+    font-size: 2rem;
+    font-family:var(--font-quicksand);
+    display: flex;
+justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-color:var(--bleu-fonce);
+    padding: 20px 0 20px 0;
 
 }
 

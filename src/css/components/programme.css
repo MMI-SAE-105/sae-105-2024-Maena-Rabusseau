@@ -360,6 +360,21 @@ dialog::backdrop {
 
 
 button
+.header__menu-btn,
+.button__programme,
+.button__inscrire,
+.carousel-btn,
+.button__ticket,
+.button__info,
+.button__info1,
+.button__envoyer,
+.button__programme,
+.button__inscrire,
+.button__acheter,
+.button__en-savoir-plus,
+.button__programme-telecharger,
+.button__acheter,
+.button.button__envoyer,
 .programme__jeudi-btn {
     margin-top: 10px; 
 }

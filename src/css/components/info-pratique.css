@@ -39,11 +39,18 @@
 
 
 .Nos-partenaires__title{
-    font-size: 2rem;
     color: var(--blanc);
+    font-size: 2rem;
     font-family:var(--font-quicksand);
+    display: flex;
+justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
     background-color:var(--bleu-fonce);
     padding: 20px 0 20px 0;
+    background-color:var(--bleu-fonce);
+    padding: 20px 0 20px 0;
+    
 
 }
 
@@ -241,6 +248,15 @@ justify-content: center;
 }
 
 .Billetterie__title{
+    color: var(--blanc);
+    font-size: 2rem;
+    font-family:var(--font-quicksand);
+    display: flex;
+justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-color:var(--bleu-fonce);
+    padding: 20px 0 20px 0;
     background-color:var(--bleu-fonce);
     padding: 20px 0 20px 0;
 }
