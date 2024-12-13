@@ -390,7 +390,16 @@ button
 .programme__vendredi-genre,
 .programme__vendredi-session,
 .programme__samedi-session,
+photo__realisateur,
 .programme__jeudi-session{
-    text-align: center; /* Centre horizontalement le texte */
+    text-align: center; 
     line-height: 1.5;
+}
+.programme__jeudi-btn,
+.button__en-savoir-plus,
+.button__acheter,
+.button__programme-telecharger,
+.button-en-savoir-plus{
+    display: block; 
+    margin: 0 auto
 }
