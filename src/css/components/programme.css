@@ -378,3 +378,19 @@ button
 .programme__jeudi-btn {
     margin-top: 10px; 
 }
+
+
+
+
+.programme__session,
+.programme__jeudi-session-descirption,
+.programme__vendred-session,
+.programme__vendredi-session-description,
+.programme__jeudi-session-info,
+.programme__vendredi-genre,
+.programme__vendredi-session,
+.programme__samedi-session,
+.programme__jeudi-session{
+    text-align: center; /* Centre horizontalement le texte */
+    line-height: 1.5;
+}
