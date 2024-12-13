@@ -1,0 +1,39 @@
+.film__title{
+    font-size: 1rem;
+    justify-content: center;
+    font-family:var(--font-open-sans);
+    display: flex
+}
+
+
+.film__affiche{
+    width: 244px;
+    height: 362px;
+    display: flex;
+    margin: 0 70px;
+}
+
+.film__synopsis{
+    font-size: 1rem;
+    font-family: var(--font-opensans);
+    justify-content: center;
+}
+.film__link{
+    font-size: 1rem;
+    font-family: var(--font-opensans);
+    justify-content: center;
+}
+.photo{
+    width: 252px;
+    height: 378px;
+    display: flex;
+    margin: 0 40px;
+}
+
+.photo__realisateur{
+
+    font-size: 1rem;
+    font-family: var(--font-opensans);
+    display: flex;
+    justify-content: center;
+}
