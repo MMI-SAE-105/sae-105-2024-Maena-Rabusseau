@@ -38,20 +38,21 @@ function updateCarousel() {
     carousel.style.transform = `translateX(${translateX}%)`;
 }
 
-nextBtn.addEventListener('click', () => {
+
+
+
+if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % images.length;
     updateCarousel();
 });
+}
 
-
-
-
-
-prevBtn.addEventListener('click', () => {
+if (nextBtn) {
+    prevBtn.addEventListener('click', () => {
     currentIndex = (currentIndex - 1 + images.length) % images.length;
     updateCarousel();
-});
-
+})}
 
 
 /*lightbox*/
