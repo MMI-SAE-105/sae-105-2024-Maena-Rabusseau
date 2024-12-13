@@ -26,3 +26,9 @@ display: block;
 margin: 20px 0;
 text-decoration: none;
 }
+.footer__logo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 0 300px;
+}

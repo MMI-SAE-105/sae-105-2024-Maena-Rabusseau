@@ -32,7 +32,7 @@
 
 .photo__realisateur{
 
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-family: var(--font-opensans);
     display: flex;
     justify-content: center;
