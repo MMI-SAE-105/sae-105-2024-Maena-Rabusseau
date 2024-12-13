@@ -29,8 +29,11 @@ font-family:var(--font-open-sans);
 justify-content: left;
     margin-top: 10%;
     margin-bottom: 5%;
-
+    background-color:var(--bordeaux-clair);
+    padding: 20px 0 20px 0;
 }
+
+
 .texte__apropos{
 
     font-family:var(--font-opensans);

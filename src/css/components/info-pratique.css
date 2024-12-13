@@ -161,7 +161,10 @@ justify-content: center;
 justify-content: center;
     margin-top: 10%;
     margin-bottom: 5%;
+    background-color:var(--bleu-fonce);
+    padding: 20px 0 20px 0;
 }
+
 
 .info p{
     display: flex;
@@ -180,7 +183,10 @@ justify-content: center;
 justify-content: center;
     margin-top: 10%;
     margin-bottom: 5%;
+    background-color:var(--bleu-fonce);
+    padding: 20px 0 20px 0;
 }
+
 
 
 .info p{
@@ -219,7 +225,10 @@ justify-content: center;
 justify-content: center;
     margin-top: 10%;
     margin-bottom: 5%;
+    background-color:var(--bleu-fonce);
+    padding: 20px 0 20px 0;
 }
+
 
 
 .texte__info{

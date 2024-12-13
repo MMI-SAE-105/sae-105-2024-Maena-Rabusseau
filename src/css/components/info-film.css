@@ -37,3 +37,5 @@
     display: flex;
     justify-content: center;
 }
+.trait__realisateur{ background-color:var(--bordeaux-clair);
+padding: 20px 0 20px 0;}
