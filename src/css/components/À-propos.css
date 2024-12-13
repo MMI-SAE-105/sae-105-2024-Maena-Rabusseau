@@ -1,0 +1,41 @@
+.apropos__title{
+font-size: 1rem ;
+font-family:var(--font-open-sans);
+
+
+}
+.texte__apropos{
+    font-family:var(--font-opensans);
+    font-size: 1rem;
+    justify-content: center;
+    display: flex;
+    margin: 0 20px;
+}
+
+
+.apropos__image{
+    width: 403px;
+    height: 218px;
+    display: flex;
+    margin: 0 1px;
+}
+.Historique__title,
+.equipe__title,
+.charte__title
+{ color: var(--blanc);
+    font-size: 2rem;
+    font-family:var(--font-quicksand);
+    display: flex;
+justify-content: left;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+}
+.texte__apropos{
+
+    font-family:var(--font-opensans);
+    font-size: 1rem;
+    justify-content: center;
+    display: flex;
+    margin: 0 20px;
+}

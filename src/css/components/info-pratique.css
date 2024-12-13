@@ -117,7 +117,113 @@
 .infos-pratiques__info{
 font-family: var(--fontopensans);
 font-size: 1rem;
+display: flex;
 justify-content: center;
 }
 
+
+.button__acheter{
+    font-size: 0.938rem;
+    color: var(--blanc);
+    background-color:var(--marron-clair);
+    border-radius: 30px;
+    display: flex;
+    width: 130px;
+    height: 50px;
+    padding: 20px 25px;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+
+
+}
+.billetterie__individuel{
+    display: flex;
+    justify-content: center;
+
+}
+
+.billetterie__pass{
+    display: flex;
+    justify-content: center;
+
+}
+
+.info__title{
+    color: var(--blanc);
+    font-size: 2rem;
+    font-family:var(--font-quicksand);
+    display: flex;
+justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.info p{
+    display: flex;
+    justify-content: center;
+    font-family:var(--font-opensans);
+    font-size: 1rem;
+
+
+}
+
+.titre-info{
+    color: var(--blanc);
+    font-size: 2rem;
+    font-family:var(--font-quicksand);
+    display: flex;
+justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+
+.info p{
+    display: flex;
+    justify-content: center;
+    font-family:var(--font-opensans);
+    font-size: 1rem;
+
+
+}
+
+.li{
+
+    font-family:var(--font-opensans);
+    font-size: 1rem;
+    justify-content: center;
+    display: flex;
+    margin: 0 100px;
+}
+
+
+.image__hotel{
+    width: 342px;
+    height: 228px;
+    display: flex;
+    margin: 0 27px;
+
+
+}
+
+.titre__faq{
+    color: var(--blanc);
+    font-size: 2rem;
+    font-family:var(--font-quicksand);
+    display: flex;
+justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+
+.texte__info{
+    
+    font-family:var(--font-opensans);
+    font-size: 1rem;
+    justify-content: center;
+    display: flex;
+    margin: 0 20px;
+}
 

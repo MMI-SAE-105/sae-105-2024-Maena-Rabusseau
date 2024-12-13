@@ -34,6 +34,7 @@
     color: var(--blanc);
     font-size: 2rem;
     font-family:var(--font-quicksand);
+    display: flex;
 justify-content: center;
     margin-top: 10%;
     margin-bottom: 5%;
@@ -51,6 +52,7 @@ justify-content: center;
    
 }
 .p{
+    display: flex;
     justify-content: center;
     font-family:var(--font-opensans);
     font-size: 1rem;
