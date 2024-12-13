@@ -21,7 +21,7 @@
 .menu__link {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     display: block;
 }
 
@@ -70,4 +70,13 @@
 .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
     transform: rotate(90deg);
     top: 0;
+}
+
+.menu__item{
+   
+    align-items: center;
+    padding: 10px;
+    margin: 40px;
+margin-left: 10px;
+margin-right: 50px;
 }

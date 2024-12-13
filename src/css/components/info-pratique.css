@@ -2,6 +2,8 @@
     font-size: 2rem;
     color: var(--blanc);
     font-family:var(--font-quicksand);
+    background-color:var(--bleu-fonce);
+    padding: 20px 0 20px 0;
 
 }
 
@@ -40,6 +42,8 @@
     font-size: 2rem;
     color: var(--blanc);
     font-family:var(--font-quicksand);
+    background-color:var(--bleu-fonce);
+    padding: 20px 0 20px 0;
 
 }
 

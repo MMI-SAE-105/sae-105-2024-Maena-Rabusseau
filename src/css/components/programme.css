@@ -81,7 +81,7 @@ padding: 20px 0 20px 0;
 
 /* vrai page */
 
-.programme__title{
+.programme__title-1{
     font-size:2rem ;
     color: var(--blanc);
     font-family:var(--font-quicksand);
@@ -216,6 +216,10 @@ margin: 0 75px;
 }
 
 .trait__programme{
+    background-color:var(--bleu-fonce);
+    padding: 20px 0 20px 0;
+}
+.trait__1{
     background-color:var(--bleu-fonce);
     padding: 20px 0 20px 0;
 }
