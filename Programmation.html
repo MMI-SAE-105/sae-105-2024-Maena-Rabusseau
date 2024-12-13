@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programmation </title>
     <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 
 <body>
@@ -14,7 +15,60 @@
             <img class="header__logo-image" src="/assets/Images/icons/favicon-96x96.png" alt="Logo Miaullywood"
                 aria-hidden="true" />
         </a>
-        <h1 class="header__title">Miaullywood</h1>
+
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="index.html">Accueil</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="Programmation.html">Programme</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="Infos-pratiques.html">Infos-pratiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="Invités.html">Nos Invités</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="Info-film.html">Info film</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="À-propos.html">À propos</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <ul class="Header__Menu" role="menu" aria-label="Navigation principale"></ul>
+
+
+
+
+        <main>
+
+
+            <div class="header">
+                <h1 class="header__title" Miaullywood, festival de cinéma et des chats>Miaullywood</h1>
+                <h2 class="header__soustitre">Bienvenue sur le site du festival Miaullywodd : Quand le cinéma et les
+                    chats
+                    se
+                    rencontrent !
+                </h2>
+                <img class="header__image-chat" src="/assets/Images/medias/black_cat_tat_-removebg-preview1.avif"
+                    alt=" Chat noir ">
+                <img class="header__image" src="/assets/Images/medias/imagechataccueil.avif"
+                    alt="Image d'un chat et du cinéma ">
+                <h2 class="header__date"><strong>Du 27 au 29 juin 2025</strong></h2>
+
+
+            </div>
     </header>
     <main>
         <div class="programme">

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LightBox </title>
+
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body>
+    <h1>Test LightBox avec élément <code>dialog</code></h1>
+
+
+    <div class="images">
+        <img class="invités__image" src="assets/Images/medias/imageHélèneGateau.avif" alt="Photo de Hélène Gateau"
+            data-full-img="assets/Images/medias/imageHélèneGateau.avif">
+        <img class="image__helene" src="assets/Images/medias/imageheleneavecchien.avif"
+            alt="Image de Hélène Gateau avec un chien" data-full-img="assets/Images/medias/imageheleneavecchien.avif">
+        <img class="image__helene" src="assets/Images/medias/imageheleneavecchat.avif"
+            alt="Image de Hélène Gateau avec un chat" data-full-img="assets/Images/medias/imageheleneavecchat.avif">
+        <img class="image__helene" src="assets/Images/medias/imagehelenelivre.avif"
+            alt="Image du livre de Hélène Gateau" data-full-img="assets/Images/medias/imagehelenelivre.avif">
+    </div>
+
+    <dialog id="lightbox">
+        <img src="" alt="Image pleine taille" />
+    </dialog>
+
+</html>

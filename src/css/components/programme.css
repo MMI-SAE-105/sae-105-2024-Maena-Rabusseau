@@ -5,15 +5,16 @@
     padding: 20px;
 }
 
-.programme__title_1{
+.programme__title_1 {
 
     display: flex;
 }
+
 .programme__title {
 
     font-size: 1rem;
-    background-color:var(--bleu-fonce);
-padding: 20px 0 20px 0;
+    background-color: var(--bleu-fonce);
+    padding: 20px 0 20px 0;
 }
 
 .programme__item {
@@ -29,7 +30,7 @@ padding: 20px 0 20px 0;
 .button__programme {
     font-size: 0.938rem;
     color: var(--blanc);
-    background-color:var(--marron-clair);
+    background-color: var(--marron-clair);
     border-radius: 30px;
     display: flex;
     width: 128px;
@@ -71,7 +72,7 @@ padding: 20px 0 20px 0;
 .button__inscrire {
 
     color: var(--blanc);
-    background-color:var(--marron-clair);
+    background-color: var(--marron-clair);
     border-radius: 30px;
     display: flex;
     width: 206px;
@@ -81,22 +82,28 @@ padding: 20px 0 20px 0;
     gap: 10px;
 }
 
+
+
+
+/*carousel*/
+
+
 .carousel-container {
     position: relative;
     width: 100%;
     max-width: 800px;
     margin: auto;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .carousel {
     display: flex;
-    transition: transform 0.6s ease-in-out; 
+    transition: transform 0.6s ease-in-out;
 }
 
 
 .carousel-item {
-    flex: 0 0 100%; 
+    flex: 0 0 100%;
     width: 100%;
     object-fit: cover;
     margin: 10px;
@@ -104,9 +111,9 @@ padding: 20px 0 20px 0;
 
 .carousel-btn {
     position: absolute;
-    bottom: 10px; 
+    bottom: 10px;
     background-color: transparent;
-    color:var(--blanc);
+    color: var(--blanc);
     border: none;
     padding: 10px 15px;
     cursor: pointer;
@@ -118,34 +125,72 @@ padding: 20px 0 20px 0;
 
 
 .prev-btn {
-    left: 20%; 
+    left: 20%;
 }
 
 .next-btn {
-    right: 20%; 
+    right: 20%;
 }
 
 
 .carousel-btn:hover {
-    background-color: rgba(255, 255, 255, 0.5); 
+    background-color: rgba(255, 255, 255, 0.5);
     color: black;
 }
 
 .carousel-container:hover .carousel-btn {
-    display: block; 
+    display: block;
 }
+
+/*lightbox*/
+dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    border: none;
+    background: transparent;
+    z-index: 1000;
+    display: none;
+}
+
+dialog img {
+    max-width: 90vw;
+    max-height: 80vh;
+    object-fit: contain;
+}
+
+.images img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.images img:hover {
+    transform: scale(1.1);
+}
+
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+    transition: background-color 0.3s ease;
+}
+
 
 
 /* vrai page */
 
-.programme__title-1{
-    font-size:2rem ;
+.programme__title-1 {
+    font-size: 2rem;
     color: var(--blanc);
-    font-family:var(--font-quicksand);
+    font-family: var(--font-quicksand);
     justify-content: center;
 }
 
-.programme__description{
+.programme__description {
     font-size: 1rem;
     font-family: var(--font-opensans);
     justify-content: center;
@@ -159,12 +204,12 @@ padding: 20px 0 20px 0;
 .programme__vendredi-session-titre,
 .programme__jour-title,
 .programme__samedi-title,
-.programme__samedi-session-titre{
-font-size: 1rem;
-font-family: var(--font-opensans);
-color: var(--blanc);
-background-color: var(--bordeaux-clair);
-padding: 20px 0 20px 0;
+.programme__samedi-session-titre {
+    font-size: 1rem;
+    font-family: var(--font-opensans);
+    color: var(--blanc);
+    background-color: var(--bordeaux-clair);
+    padding: 20px 0 20px 0;
 
 
 }
@@ -172,12 +217,13 @@ padding: 20px 0 20px 0;
 .programme__strong-label,
 .programme__jeudi-label,
 .programme__vendredi-label,
-.programme__samedi-label{
+.programme__samedi-label {
     font-size: 1rem;
     font-family: var(--font-opensans);
 
-    
+
 }
+
 .programme__session,
 .programme__audience,
 .programme__location,
@@ -194,23 +240,23 @@ padding: 20px 0 20px 0;
 .programme__vendredi-audience,
 .programme__vendredi-location,
 .programme__vendredi-session-description,
-.programme__vendredi-genre{
+.programme__vendredi-genre {
     font-size: 1rem;
     font-family: var(--font-opensans);
     justify-content: center;
 }
 
-.programme__jeudi-image{
+.programme__jeudi-image {
     width: 244px;
-height: 362px;
-display: flex;
-margin: 0 75px;
+    height: 362px;
+    display: flex;
+    margin: 0 75px;
 }
 
-.programme__jeudi-btn{
+.programme__jeudi-btn {
     font-size: 0.938rem;
     color: var(--blanc);
-    background-color:var(--marron-clair);
+    background-color: var(--marron-clair);
     border-radius: 30px;
     display: flex;
     width: 160px;
@@ -220,17 +266,17 @@ margin: 0 75px;
     gap: 10px;
 }
 
-.programme__vendredi-image{
+.programme__vendredi-image {
     width: 310px;
     height: 347px;
     display: flex;
     margin: 0 45px;
 }
 
-.button__en-savoir-plus{
+.button__en-savoir-plus {
     font-size: 0.938rem;
     color: var(--blanc);
-    background-color:var(--marron-clair);
+    background-color: var(--marron-clair);
     border-radius: 30px;
     display: flex;
     width: 160px;
@@ -239,7 +285,8 @@ margin: 0 75px;
     align-items: center;
     gap: 10px;
 }
-.programme__image{
+
+.programme__image {
     width: 254px;
     height: 316px;
     display: flex;
@@ -247,10 +294,10 @@ margin: 0 75px;
 }
 
 
-.button-en-savoir-plus{
+.button-en-savoir-plus {
     font-size: 0.938rem;
     color: var(--blanc);
-    background-color:var(--marron-clair);
+    background-color: var(--marron-clair);
     border-radius: 30px;
     display: flex;
     width: 160px;
@@ -259,10 +306,11 @@ margin: 0 75px;
     align-items: center;
     gap: 10px;
 }
-.button__programme-telecharger{
+
+.button__programme-telecharger {
     font-size: 0.938rem;
     color: var(--blanc);
-    background-color:var(--marron-clair);
+    background-color: var(--marron-clair);
     border-radius: 30px;
     display: flex;
     width: 260px;
@@ -272,15 +320,17 @@ margin: 0 75px;
     gap: 10px;
 }
 
-.trait__programme{
-    background-color:var(--bleu-fonce);
+.trait__programme {
+    background-color: var(--bleu-fonce);
     padding: 20px 0 20px 0;
 }
-.trait__1{
-    background-color:var(--bleu-fonce);
+
+.trait__1 {
+    background-color: var(--bleu-fonce);
     padding: 20px 0 20px 0;
 }
-.trait__vendredi{
-    background-color:var(--bleu-fonce);
+
+.trait__vendredi {
+    background-color: var(--bleu-fonce);
     padding: 20px 0 20px 0;
 }
