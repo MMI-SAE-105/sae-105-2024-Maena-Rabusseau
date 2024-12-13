@@ -81,24 +81,59 @@ padding: 20px 0 20px 0;
     gap: 10px;
 }
 
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden; 
+}
 
-.carousel{
+.carousel {
+    display: flex;
+    transition: transform 0.6s ease-in-out; 
+}
 
-    width: 261px;
-height: 315px;
-display: flex;
-margin: 0 75px;
+
+.carousel-item {
+    flex: 0 0 100%; 
+    width: 100%;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.carousel-btn {
+    position: absolute;
+    bottom: 10px; 
+    background-color: transparent;
+    color:var(--blanc);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 1.5rem;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 
 
+.prev-btn {
+    left: 20%; 
+}
+
+.next-btn {
+    right: 20%; 
+}
 
 
+.carousel-btn:hover {
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: black;
+}
 
-
-
-
-
+.carousel-container:hover .carousel-btn {
+    display: block; 
+}
 
 
 /* vrai page */

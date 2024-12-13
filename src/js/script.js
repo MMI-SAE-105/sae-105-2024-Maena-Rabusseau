@@ -1,3 +1,6 @@
+
+/*menu*/
+
 // On cible les éléments à modifier
 const toggle = document.querySelector(".menu-btn");
 const nav = document.querySelector(".menu");
@@ -14,3 +17,37 @@ if (toggle && nav) {
         page.classList.toggle("noscroll", isClosed);
     });
 }
+
+
+
+
+
+/*carousel*/
+const carousel = document.querySelector('.carousel');
+
+const images = document.querySelectorAll('.carousel-item');
+const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
+
+
+let currentIndex = 0;
+
+
+function updateCarousel() {
+    const translateX = -currentIndex * 100; 
+    carousel.style.transform = `translateX(${translateX}%)`;
+}
+
+nextBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % images.length; 
+    updateCarousel();
+});
+
+
+
+
+
+prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length; 
+    updateCarousel();
+});
