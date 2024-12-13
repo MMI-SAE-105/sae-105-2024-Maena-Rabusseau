@@ -5,6 +5,10 @@
     padding: 20px;
 }
 
+.programme__title_1{
+
+    display: flex;
+}
 .programme__title {
 
     font-size: 1rem;
@@ -76,6 +80,24 @@ padding: 20px 0 20px 0;
     align-items: center;
     gap: 10px;
 }
+
+
+.carousel{
+
+    width: 261px;
+height: 315px;
+display: flex;
+margin: 0 75px;
+}
+
+
+
+
+
+
+
+
+
 
 
 

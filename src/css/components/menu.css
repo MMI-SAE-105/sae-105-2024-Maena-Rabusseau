@@ -27,10 +27,10 @@
 
 
 .menu-btn {
-    position: relative;
+    position: absolute;
     width: 30px;
     height: 30px;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
 }

@@ -1,8 +1,7 @@
 body {
     background-color: var(--sable);
     font-family: var(--font-opensans);
-    margin: 0;
-    padding: 0;
+    
 }
 
 h1,
