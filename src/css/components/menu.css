@@ -4,7 +4,7 @@
     position: fixed;
     inset: 0;
     z-index: 1;
-    background-color: black;
+    background-color: var(--bordeaux-clair);
     color: white;
     flex-direction: column;
     justify-content: space-between;
@@ -39,7 +39,7 @@
 .menu-btn__bar::before,
 .menu-btn__bar::after {
     content: "";
-    background: red;
+    background: var(--blanc);
     height: 2px;
     width: 100%;
     position: absolute;
