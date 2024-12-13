@@ -8,6 +8,8 @@
 .programme__title {
 
     font-size: 1rem;
+    background-color:var(--bleu-fonce);
+padding: 20px 0 20px 0;
 }
 
 .programme__item {
@@ -104,6 +106,8 @@
 font-size: 1rem;
 font-family: var(--font-opensans);
 color: var(--blanc);
+background-color: var(--bordeaux-clair);
+padding: 20px 0 20px 0;
 
 
 }
@@ -211,3 +215,7 @@ margin: 0 75px;
     gap: 10px;
 }
 
+.trait__programme{
+    background-color:var(--bleu-fonce);
+    padding: 20px 0 20px 0;
+}

@@ -7,144 +7,163 @@
     <title> Miaullywood </title>
 
 
-<link rel="icon" type="image/png" href="/assets/Images/logos/logo1.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="/assets/Images/logos/logo1.svg" />>
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/Images/logos/apple-touch-icon.png" />
-<meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="icon" type="image/png" href="/assets/Images/logos/logo1.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/Images/logos/logo1.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/Images/logos/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
     <link rel="stylesheet" href="/src/css/style.css">
-
+    <script type="module" src="/src/js/script.js"></script>
 
 </head>
 
 <body>
     <header class="header">
 
-        <img class="header__logo-image" src="/assets/Images/icons/favicon-96x96.png" alt="Logo Miaullywood" aria-hidden="true">
-        
-        </a>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="works.html">Works</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="about.html">About</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="contact.html">Contact</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="team.html">Team</a>
+                </li>
+            </ul>
+        </nav>
 
         <ul class="Header__Menu" role="menu" aria-label="Navigation principale"></ul>>
 
-            <li><a class="Header__Menu-link" href="Programmation.html" role="menuitem">Programmation</a></li>
-            <li><a class="Header__Menu-link" href="Menu.html" role="menuitem">Menu</a></li>
-            <li><a class="Header__Menu-link" href="Invités.html" role="menuitem">Nos Invités</a></li>
-            <li><a class="Header__Menu-link" href="Infos-pratiques.html" role="menuitem">Infos-pratiques</a></li>
-            <li><a class="Header__Menu-link" href="À-propos.html" role="menuitem">À propos</a></li>
-            <li><a class="Header__Menu-link" href="Contact.html" role="menuitem">Contact</a></li>
-            <li><a class="Header__Menu-link" href="Info-film.html" role="menuitem">Info film</a></li>
+        <li><a class="Header__Menu-link" href="Programmation.html" role="menuitem">Programmation</a></li>
+        <li><a class="Header__Menu-link" href="Menu.html" role="menuitem">Menu</a></li>
+        <li><a class="Header__Menu-link" href="Invités.html" role="menuitem">Nos Invités</a></li>
+        <li><a class="Header__Menu-link" href="Infos-pratiques.html" role="menuitem">Infos-pratiques</a></li>
+        <li><a class="Header__Menu-link" href="À-propos.html" role="menuitem">À propos</a></li>
+        <li><a class="Header__Menu-link" href="Contact.html" role="menuitem">Contact</a></li>
+        <li><a class="Header__Menu-link" href="Info-film.html" role="menuitem">Info film</a></li>
         </ul>
-    
-
-    <main>
 
 
-        <div class="header">
-            <h1 class="header__title"  Miaullywood, festival de cinéma et des chats>Miaullywood</h1>
-            <h2 class="header__soustitre">Bienvenue sur le site du festival Miaullywodd : Quand le cinéma et les chats
-                se
-                rencontrent !
-            </h2>
-            <img class="header__image-chat" src="/assets/Images/medias/black_cat_tat_-removebg-preview1.avif"
-                alt=" Chat noir ">
-            <img class="header__image" src="/assets/Images/medias/imagechataccueil.avif"
-                alt="Image d'un chat et du cinéma ">
+        <main>
+
+
+            <div class="header">
+                <h1 class="header__title" Miaullywood, festival de cinéma et des chats>Miaullywood</h1>
+                <h2 class="header__soustitre">Bienvenue sur le site du festival Miaullywodd : Quand le cinéma et les
+                    chats
+                    se
+                    rencontrent !
+                </h2>
+                <img class="header__image-chat" src="/assets/Images/medias/black_cat_tat_-removebg-preview1.avif"
+                    alt=" Chat noir ">
+                <img class="header__image" src="/assets/Images/medias/imagechataccueil.avif"
+                    alt="Image d'un chat et du cinéma ">
                 <h2 class="header__date"><strong>Du 27 au 29 juin 2025</strong></h2>
 
-         
-        </div>
-        </header>
-        <div class="programme">
-            <p class="programme__description">Cinéma, chats et convivialité : un festival plein de surprises à partager
-                !
-            </p>
-            <h3 class="programme__title"><strong>Au programme : </strong></h3>
-            <ul class="programme">
 
-                <li class="programme__item">Présentations de films de réalisateurs émergents</li>
-                <li class="programme__item"> Stands tenus par des associations de protection animale </li>
-                <li class="programme__item"> Ateliers créatifs pour petits et grands </li>
-                <li class="programme__item">Séances de yoga de relaxation </li>
-            </ul>
-            <button class="button__programme" aria-label="Voir le programme complet">Programme</button>
-        </div>
-        <div class="activités">
-            <img class="activités__image" src="assets/Images/medias/imageyoga.avif" alt="image d'un cours de yoga">
-            <p class="activités__description">Participez à des ateliers interactifs, des discussions autour du cinéma,
-                et
-                des
-                animations surprises pour
-                petits
-                et grands !</p>
-            <h3 class="activités__title"><strong>Associations présentes : </strong></h3>
-            <img class="activités__association-image" src="assets/Images/medias/imageassociationchat.avif"
-                alt="Image représentant une association pour les chats ">
-            <h4 class="activités__association-nom"> Les Pattes Solidaires</h4>
-            <button class="button__inscrire" aria-label="Voir pour inscrire mon association"> Inscrire mon association </button>
-        </div>
-        <hr>
-        <div class="carousel">
-            <img src="assets/Images/medias/frame3.avif" alt="affiche film 1 ">
-            <img src="assets/Images/medias/frame4.avif" alt="affiche film 2 ">
-            <img src="assets/Images/medias/frame5.avif" alt="affiche film 3 ">
+            </div>
+    </header>
+    <div class="programme">
+        <p class="programme__description">Cinéma, chats et convivialité : un festival plein de surprises à partager
+            !
+        </p>
+        <h3 class="programme__title"><strong>Au programme : </strong></h3>
+        <ul class="programme">
 
-
-        </div>
+            <li class="programme__item">Présentations de films de réalisateurs émergents</li>
+            <li class="programme__item"> Stands tenus par des associations de protection animale </li>
+            <li class="programme__item"> Ateliers créatifs pour petits et grands </li>
+            <li class="programme__item">Séances de yoga de relaxation </li>
+        </ul>
+        <button class="button__programme" aria-label="Voir le programme complet">Programme</button>
+    </div>
+    <div class="activités">
+        <img class="activités__image" src="assets/Images/medias/imageyoga.avif" alt="image d'un cours de yoga">
+        <p class="activités__description">Participez à des ateliers interactifs, des discussions autour du cinéma,
+            et
+            des
+            animations surprises pour
+            petits
+            et grands !</p>
+        <h3 class="activités__title"><strong>Associations présentes : </strong></h3>
+        <img class="activités__association-image" src="assets/Images/medias/imageassociationchat.avif"
+            alt="Image représentant une association pour les chats ">
+        <h4 class="activités__association-nom"> Les Pattes Solidaires</h4>
+        <button class="button__inscrire" aria-label="Voir pour inscrire mon association"> Inscrire mon association
+        </button>
+    </div>
+    <hr>
+    <div class="carousel">
+        <img src="assets/Images/medias/frame3.avif" alt="affiche film 1 ">
+        <img src="assets/Images/medias/frame4.avif" alt="affiche film 2 ">
+        <img src="assets/Images/medias/frame5.avif" alt="affiche film 3 ">
 
 
-        <hr>
-        <div class="Billetterie">
-            <h2 class="Billetterie__title"><strong>Billeterie</strong></h2>
-            <p class="Billetterie__prix">Pass journée 10€<br>
+    </div>
 
-                Pass 3 jours 25€</p>
-            <button class="button__ticket" aria-label="Voir pour prendre mes tickets "> Voir plus </button>
 
-        </div>
-        <hr>
-        <div class="nos-invités">
-            <h2 class="nos-invités__title"><strong>Nos invités</strong> </h2>
-            <img class="nos-invités__image" src="assets/Images/medias/imagealainchabat.avif" alt="Photo Alain Chabat">
-            <button class="button__info"  aria-label="Voir tous nos invités "> Voir plus </button>
-        </div>
-        <hr>
-        <div class="infos-pratiques">
-            <h2 class="infos-pratiques__title"><strong>Infos pratiques</strong></h2>
-            <h3 class="infos-pratiques__soustitre"><strong>Où ?</strong> </h3>
-            <p class="infos-pratiques__info">Pontarlier
-                Le lieu exact du festival le cinéma Olympia </p>
-            <img class="infos-pratiques__image" src="assets/Images/medias/imagecinémapontarlier.avif"
-                alt="Photo cinéma Pontarlier ">
-            <button class="button__info1" aria-label="Voir la page infos pratiques "> Voir plus</button>
-        </div>
-        <hr>
-        <div class="Nos-partenaires">
-            <h2 class="Nos-partenaires__title"><strong>Nos partenaires</strong></h2>
+    <hr>
+    <div class="Billetterie">
+        <h2 class="Billetterie__title"><strong>Billeterie</strong></h2>
+        <p class="Billetterie__prix">Pass journée 10€<br>
 
-            <ul class="Nos-partenaires__liste"  role="list" aria-label="Partenaires du festival">
-                <li class="Nos-partenaires__item">Office de Tourisme du Doubs </li>
-                <li class="Nos-partenaires__item">Ville de Besançon</li>
-                <li class="Nos-partenaires__item">Association Chats sans Toit </li>
-                <li class="Nos-partenaires__item">Association SPA de Montbéliard </li>
-                <li class="Nos-partenaires__item">La Brasserie du Chat Noir </li>
-                <li class="Nos-partenaires__item">Zooplus </li>
-                <li class="Nos-partenaires__item"> Chocolaterie des Montagnes</li>
-                <li class="Nos-partenaires__item">Les Amis du Cinéma</li>
-                <li class="Nos-partenaires__item">Shellac </li>
-                <li class="Nos-partenaires__item">Cinécapsule</li>
-            </ul>
-        </div>
-        <div class="logos">
-            <img class="Nos-partenaires__logo1" src="assets/Images/logos/logozooplus.avif" alt="Logo de Zooplus">
-            <img class="Nos-partenaires__logo2" src="assets/Images/logos/logochatsanstoit.avif"
-                alt="Logo de l'association Chats sans Toit">
-            <img class="Nos-partenaires__logo3" src="assets/Images/logos/logocinema.avif" alt="Logo du Cinéma">
-            <img class="Nos-partenaires__logo4" src="assets/Images/logos/logodoubstourisme.avif"
-                alt="Logo de l'Office de Tourisme du Doubs">
-            <img class="Nos-partenaires__logo5" src="assets/Images/logos/logochocolatmontagne.avif"
-                alt="Logo de la Chocolaterie des Montagnes ">
-            <img class="Nospartenaires__logo6" src="assets/Images/logos/logobrasseriechatsnoirs.avif"
-                alt="Logo de la Brasserie du Chat Noir ">
-        </div>
+            Pass 3 jours 25€</p>
+        <button class="button__ticket" aria-label="Voir pour prendre mes tickets "> Voir plus </button>
+
+    </div>
+    <hr>
+    <div class="nos-invités">
+        <h2 class="nos-invités__title"><strong>Nos invités</strong> </h2>
+        <img class="nos-invités__image" src="assets/Images/medias/imagealainchabat.avif" alt="Photo Alain Chabat">
+        <button class="button__info" aria-label="Voir tous nos invités "> Voir plus </button>
+    </div>
+    <hr>
+    <div class="infos-pratiques">
+        <h2 class="infos-pratiques__title"><strong>Infos pratiques</strong></h2>
+        <h3 class="infos-pratiques__soustitre"><strong>Où ?</strong> </h3>
+        <p class="infos-pratiques__info">Pontarlier
+            Le lieu exact du festival le cinéma Olympia </p>
+        <img class="infos-pratiques__image" src="assets/Images/medias/imagecinémapontarlier.avif"
+            alt="Photo cinéma Pontarlier ">
+        <button class="button__info1" aria-label="Voir la page infos pratiques "> Voir plus</button>
+    </div>
+    <hr>
+    <div class="Nos-partenaires">
+        <h2 class="Nos-partenaires__title"><strong>Nos partenaires</strong></h2>
+
+        <ul class="Nos-partenaires__liste" role="list" aria-label="Partenaires du festival">
+            <li class="Nos-partenaires__item">Office de Tourisme du Doubs </li>
+            <li class="Nos-partenaires__item">Ville de Besançon</li>
+            <li class="Nos-partenaires__item">Association Chats sans Toit </li>
+            <li class="Nos-partenaires__item">Association SPA de Montbéliard </li>
+            <li class="Nos-partenaires__item">La Brasserie du Chat Noir </li>
+            <li class="Nos-partenaires__item">Zooplus </li>
+            <li class="Nos-partenaires__item"> Chocolaterie des Montagnes</li>
+            <li class="Nos-partenaires__item">Les Amis du Cinéma</li>
+            <li class="Nos-partenaires__item">Shellac </li>
+            <li class="Nos-partenaires__item">Cinécapsule</li>
+        </ul>
+    </div>
+    <div class="logos">
+        <img class="Nos-partenaires__logo1" src="assets/Images/logos/logozooplus.avif" alt="Logo de Zooplus">
+        <img class="Nos-partenaires__logo2" src="assets/Images/logos/logochatsanstoit.avif"
+            alt="Logo de l'association Chats sans Toit">
+        <img class="Nos-partenaires__logo3" src="assets/Images/logos/logocinema.avif" alt="Logo du Cinéma">
+        <img class="Nos-partenaires__logo4" src="assets/Images/logos/logodoubstourisme.avif"
+            alt="Logo de l'Office de Tourisme du Doubs">
+        <img class="Nos-partenaires__logo5" src="assets/Images/logos/logochocolatmontagne.avif"
+            alt="Logo de la Chocolaterie des Montagnes ">
+        <img class="Nospartenaires__logo6" src="assets/Images/logos/logobrasseriechatsnoirs.avif"
+            alt="Logo de la Brasserie du Chat Noir ">
+    </div>
     </main>
     <footer class="footer" aria-labelledby="footer-title">
         <div class="footer__content">
