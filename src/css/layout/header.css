@@ -34,18 +34,12 @@ flex-shrink: 0;
 
 }
 
-.header__date {
-    text-align: center;
-    color: var(--blanc);
-}
-
 .header__image-chat {
 
     position: absolute;
     top: 40px;
     right: 10px;
     height: 80px;
-
 }
 
 .header__image {
@@ -55,19 +49,19 @@ flex-shrink: 0;
 }
 
 .header__date {
-    z-index: 2;
-
+    z-index: 1000;
     font-size: 1rem;
     margin-top: 20px;
     color: var(--blanc);
     padding: 10px 20px;
-
+    text-align: center;
+    background-color: var(--bleu-fonce);
+    border-radius: 90px;
 
 
 }
 
-.header__image-date {
-    z-index: 1;
+/*.header__image-date {
     position: absolute;
     bottom: 15px;
     left: 30px;

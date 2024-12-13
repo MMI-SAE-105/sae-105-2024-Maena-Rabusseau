@@ -19,19 +19,19 @@
 <body>
     <header class="header">
 
-        <img class="header__logo-image" src="/assets/Images/icons/" alt="Logo Miaullywood">
+        <img class="header__logo-image" src="/assets/Images/icons/favicon-96x96.png" alt="Logo Miaullywood" aria-hidden="true">
         
         </a>
 
-        <ul class="Header__Menu">
+        <ul class="Header__Menu" role="menu" aria-label="Navigation principale"></ul>>
 
-            <li><a class="Header__Menu-link" href="Programmation.html">Programmation</a></li>
-            <li><a class="Header__Menu-link" href="Menu.html">Menu</a></li>
-            <li><a class="Header__Menu-link" href="Invités.html">Nos Invités</a></li>
-            <li><a class="Header__Menu-link" href="Infos-pratiques.html">Infos-pratiques</a></li>
-            <li><a class="Header__Menu-link" href="À-propos.html">À propos</a></li>
-            <li><a class="Header__Menu-link" href="Contact.html">Contact</a></li>
-            <li><a class="Header__Menu-link" href="Info-film.html">Info film</a></li>
+            <li><a class="Header__Menu-link" href="Programmation.html" role="menuitem">Programmation</a></li>
+            <li><a class="Header__Menu-link" href="Menu.html" role="menuitem">Menu</a></li>
+            <li><a class="Header__Menu-link" href="Invités.html" role="menuitem">Nos Invités</a></li>
+            <li><a class="Header__Menu-link" href="Infos-pratiques.html" role="menuitem">Infos-pratiques</a></li>
+            <li><a class="Header__Menu-link" href="À-propos.html" role="menuitem">À propos</a></li>
+            <li><a class="Header__Menu-link" href="Contact.html" role="menuitem">Contact</a></li>
+            <li><a class="Header__Menu-link" href="Info-film.html" role="menuitem">Info film</a></li>
         </ul>
     
 
@@ -39,7 +39,7 @@
 
 
         <div class="header">
-            <h1 class="header__title">Miaullywood</h1>
+            <h1 class="header__title"  Miaullywood, festival de cinéma et des chats>Miaullywood</h1>
             <h2 class="header__soustitre">Bienvenue sur le site du festival Miaullywodd : Quand le cinéma et les chats
                 se
                 rencontrent !
@@ -48,9 +48,9 @@
                 alt=" Chat noir ">
             <img class="header__image" src="/assets/Images/medias/imagechataccueil.avif"
                 alt="Image d'un chat et du cinéma ">
-            <img class="header__image-date" src="assets/Images/medias/ellipse1.avif"
-                alt="Éclipse avec date du festival">
-            <h2 class="header__date"><strong>Du 27 au 29 juin 2025</strong></h2>
+                <h2 class="header__date"><strong>Du 27 au 29 juin 2025</strong></h2>
+
+         
         </div>
         </header>
         <div class="programme">
@@ -65,7 +65,7 @@
                 <li class="programme__item"> Ateliers créatifs pour petits et grands </li>
                 <li class="programme__item">Séances de yoga de relaxation </li>
             </ul>
-            <button class="button__programme">Programme</button>
+            <button class="button__programme" aria-label="Voir le programme complet">Programme</button>
         </div>
         <div class="activités">
             <img class="activités__image" src="assets/Images/medias/imageyoga.avif" alt="image d'un cours de yoga">
@@ -79,7 +79,7 @@
             <img class="activités__association-image" src="assets/Images/medias/imageassociationchat.avif"
                 alt="Image représentant une association pour les chats ">
             <h4 class="activités__association-nom"> Les Pattes Solidaires</h4>
-            <button class="button__inscrire"> Inscrire mon association </button>
+            <button class="button__inscrire" aria-label="Voir pour inscrire mon association"> Inscrire mon association </button>
         </div>
         <hr>
         <div class="carousel">
@@ -97,14 +97,14 @@
             <p class="Billetterie__prix">Pass journée 10€<br>
 
                 Pass 3 jours 25€</p>
-            <button class="button__ticket"> Voir plus </button>
+            <button class="button__ticket" aria-label="Voir pour prendre mes tickets "> Voir plus </button>
 
         </div>
         <hr>
         <div class="nos-invités">
             <h2 class="nos-invités__title"><strong>Nos invités</strong> </h2>
             <img class="nos-invités__image" src="assets/Images/medias/imagealainchabat.avif" alt="Photo Alain Chabat">
-            <button class="button__info"> Voir plus </button>
+            <button class="button__info"  aria-label="Voir tous nos invités "> Voir plus </button>
         </div>
         <hr>
         <div class="infos-pratiques">
@@ -114,13 +114,13 @@
                 Le lieu exact du festival le cinéma Olympia </p>
             <img class="infos-pratiques__image" src="assets/Images/medias/imagecinémapontarlier.avif"
                 alt="Photo cinéma Pontarlier ">
-            <button class="button__info1"> Voir plus</button>
+            <button class="button__info1" aria-label="Voir la page infos pratiques "> Voir plus</button>
         </div>
         <hr>
         <div class="Nos-partenaires">
             <h2 class="Nos-partenaires__title"><strong>Nos partenaires</strong></h2>
 
-            <ul class="Nos-partenaires__liste">
+            <ul class="Nos-partenaires__liste"  role="list" aria-label="Partenaires du festival">
                 <li class="Nos-partenaires__item">Office de Tourisme du Doubs </li>
                 <li class="Nos-partenaires__item">Ville de Besançon</li>
                 <li class="Nos-partenaires__item">Association Chats sans Toit </li>
@@ -146,7 +146,7 @@
                 alt="Logo de la Brasserie du Chat Noir ">
         </div>
     </main>
-    <footer class="footer">
+    <footer class="footer" aria-labelledby="footer-title">
         <div class="footer__content">
             <img class="footer__logo" src="/assets/Images/logos/logo.png" alt=" logo Miaullywodd">
             <h2 class="footer__title">Miaullywodd</h2>

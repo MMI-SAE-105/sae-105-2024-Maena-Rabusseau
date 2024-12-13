@@ -15,6 +15,8 @@
     width: 200px;
     height: 300px;
     flex-shrink: 0;
+    list-style-type: none;
+    margin-left: -20px;
 
 }
 
@@ -102,6 +104,7 @@
 font-size: 1rem;
 font-family: var(--font-opensans);
 color: var(--blanc);
+
 
 }
 
